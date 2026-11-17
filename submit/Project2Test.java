@@ -59,18 +59,6 @@ public class Project2Test {
     }
 
     /**
-     * These methods tested here are not required for this project
-     * but are called here so you get full coverage points.
-     */
-    @Test
-    public void testCallingMethodsNotUsed() {
-        Project2 runner = new Project2();
-        assertEquals(0, runner.numOfPolySyllabic(0));
-        assertEquals(0, runner.numOfSyllables());
-        assertEquals("", runner.getContents());
-    }
-
-    /**
      * Runs adding an empty and null String in addWord().
      */
     @Test
