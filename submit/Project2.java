@@ -30,7 +30,7 @@ public class Project2 extends Document {
     public Project2() {
         docWords = Factory.makeListArray();
         misspelledWords = Factory.makeBagArrayList();
-        makeDictionary("dictionary.txt");
+        makeDictionary("data/dictionary.txt");
         uniqueWords = 0;
         numWords = 0;
 
