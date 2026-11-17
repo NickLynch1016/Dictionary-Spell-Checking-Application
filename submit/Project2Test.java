@@ -45,10 +45,10 @@ public class Project2Test {
     @Test
     public void testLoadFromFile() {
         Project2 runner = new Project2();
-        runner.loadFromFile("shortdoc.txt");
+        runner.loadFromFile("data/shortdoc.txt");
 
         // testing getFileName()
-        assertEquals("shortdoc.txt", runner.getFilename());
+        assertEquals("data/shortdoc.txt", runner.getFilename());
 
         // you must update these numbers
         int n = runner.numUniqueWords();
@@ -76,7 +76,7 @@ public class Project2Test {
     @Test
     public void testEmptyFile() {
         Project2 runner = new Project2();
-        boolean emptyTxtBool = runner.loadFromFile("empty.txt");
+        boolean emptyTxtBool = runner.loadFromFile("data/empty.txt");
     }
 
     /**
