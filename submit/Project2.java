@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -186,50 +185,5 @@ public class Project2 extends Document {
      */
     public BagADT<String> getMisspelledWords() {
         return misspelledWords;
-    }
-
-    /**
-     * This is not needed for the project but must be implemented.
-     *
-     * Returns the full contents of the file in a String object.
-     * 
-     * @return string representation of the file.
-     */
-
-    public String getContents() {
-        return "";
-    }
-
-    /**
-     * This is not needed for the project but must be implemented.
-     *
-     * Returns the number of syllabus in the contents of
-     * the file. One way to compute it is to iterate over
-     * all the words in the file and compute the number of
-     * syllables of each word, calling countSyllables(),
-     * and accumulating the counts to get to the total number
-     * of syllables in the document.
-     * 
-     * @return number of syllables in the document
-     */
-    public int numOfSyllables() {
-        return 0;
-    }
-
-    /**
-     * This is not needed for the project but must be implemented.
-     *
-     * Returns the number of polysyllabic words in the
-     * document. This needs to be computed when called and
-     * not saved, as it depends on how many syllables should
-     * be used to count as polysyllabic. This returns the
-     * number of words whose number of syllables is larger
-     * or equal to parameter x.
-     * 
-     * @param arg0 threshold for syllables to count as polysyllabic
-     * @return number of words that have less than or equal x syllables
-     */
-    public int numOfPolySyllabic(int arg0) {
-        return 0;
     }
 }
